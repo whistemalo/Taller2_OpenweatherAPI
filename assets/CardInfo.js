@@ -3,9 +3,9 @@ import { StyleSheet, View, Text, Image } from 'react-native';
 //import Icon  from 'react-native-vector-icons/Ionicons';
 
 
-const CardInfo = ({ dataWeather }) => {
+const CardInfo = ({ weatherInfo }) => {
     //Destructuring
-    const  { weather, main, wind, name }   = dataWeather;
+    const  { weather, main, wind, name }   = weatherInfo;
 
     //Direccion del icono del clima
     const icon = `https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`;
