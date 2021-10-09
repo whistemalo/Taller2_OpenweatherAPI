@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
         width: '100%',
         fontSize: 26,
         marginVertical: 15,
+        fontFamily: 'Lato-Regular',
         fontWeight: 'bold',
         textAlign: 'center',
         color: '#FFF',

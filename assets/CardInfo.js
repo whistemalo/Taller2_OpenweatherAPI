@@ -37,18 +37,20 @@ const styles = StyleSheet.create({
     },
     city: {
         fontSize: 26,
-        fontWeight: 'bold',
+        fontFamily: 'Lato-Italic',
         textAlign: 'center',
         marginBottom: 15,
         color: '#FFF',
-        fontWeight: '500'
+        fontWeight: '600'
     },
     infoTemp: {
         flexDirection: 'row',
         alignItems: 'center',
         marginVertical: 15,
+        fontFamily: 'Lato-Italic',
     },
     temp: {
+        fontFamily: 'Lato-Italic',
         fontSize: 26,
         marginRight: 10,
         color: '#FFF',
@@ -56,13 +58,15 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     minMax: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        fontFamily: 'Lato-Regular',
     },
     textInfo: {
         fontSize: 18,
+        fontFamily: 'Lato-Italic',
         margin: 5,
         color: '#FFF',
-        fontWeight: '900'
+
     }
 })
 
